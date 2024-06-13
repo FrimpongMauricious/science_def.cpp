@@ -1,41 +1,213 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<CodeBlocks_project_file>
-	<FileVersion major="1" minor="6" />
-	<Project>
-		<Option title="scientific definitions AI.cpp" />
-		<Option execution_dir="C:/MinGW/mingw32/bin/ochaya.cpp/obj/Debug/scientific definitions AI.cpp/" />
-		<Option pch_mode="2" />
-		<Option compiler="gcc" />
-		<Build>
-			<Target title="Debug">
-				<Option output="bin/Debug/scientific definitions AI.cpp" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-g" />
-				</Compiler>
-			</Target>
-			<Target title="Release">
-				<Option output="bin/Release/scientific definitions AI.cpp" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-O2" />
-				</Compiler>
-				<Linker>
-					<Add option="-s" />
-				</Linker>
-			</Target>
-		</Build>
-		<Compiler>
-			<Add option="-Wall" />
-			<Add option="-fexceptions" />
-		</Compiler>
-		<Unit filename="../../../../MinGW/mingw32/bin/ochaya.cpp/obj/Debug/scientific definitions AI.cpp/main.cpp" />
-		<Extensions>
-			<lib_finder disable_auto="1" />
-		</Extensions>
-	</Project>
-</CodeBlocks_project_file>
+#include <iostream>
+
+using namespace std;
+
+int main(){
+string term;
+
+string force="A force is a push or a pull of an object which changes a body state of rest or uniform motion in a straight line.The whole concept of forces was brought into existence by sir Isaac Newton. Force is the product of mass and acceleration";
+string work="work is said to be done when a force moves an object through a distance in the direction of the force.Work is the product of force and the distance the applied force caused the object to move";
+string energy="energy is the ability to do work.The SI unit for energy is (Joules)";
+string power="power is the rate at which work is delivered(i.e energy per unit time) .The SI unit for power is (Watt)";
+string amplitude="Amplitude is the maximum displacement of a body from its mean position. The amplitude is a measurement of separation so measured in meters";
+string wave="A wave is a disturbance that conveys energy from one point to another without moving between the points.";
+string wavelength="Wave length is the distance between two successive troughs or crest.Wavelength is measured in meters.";
+string matter="matter is anything that has mass and volume";
+string compound="compound is a uniform mixture of two or more elements which can not be separated by any chemical means.(a uniform mixture of hydrogen and oxygen produces water).  ";
+string element="An element is a pure substance which is made up of the same kind of atom and cannot be broken down into simpler substance by any known chemical means(boron , silicon etc are all elements. ";
+string fruit="A fruit is a matured ovary(mango fruit)";
+string seed="A seed is a fertilized ovule(maize seed).";
+string atmosphere="Atmosphere is a mixture of gases that surrounds the earth. ";
+string atom="An atom is the smallest particle of an element which can take part in a chemical reaction.";
+string tissue="A tissue is a group similar cells that performs similar functions.";
+string system="System is group of  coordinated organs that performs a specific function(circulatory system etc...)";
+string moment="Moment of a force is the turning effect produced by the force .Moment is the product of a force and its perpendicular distance from a reference point.";
+string momentum="Momentum is the product of the mass of a body and the velocity with which it is moving.(M*V)";
+string photoelectricity="Photo-electricity is the spontaneous emission of electron from the surface of a metal when electromagnetic radiation of appropriate frequency falls on the metal surface . ";
+string paleontology="Paleontology is the branch of Biology that deals with the study of fossils of animals and plants.";
+string population="Population is a group of organisms of the same species(population of toads). ";
+string mole="Mole of a substance is the amount of substance containing as many particles as there are carbon atoms in 12g of carbon-12 isotope.";
+string reproduction="Reproduction is the process by which living organisms give rise to young ones of the same kind ";
+string fertilisation="Fertilization is the fusion of the male and the female sex cell of a living organism to form a new diploid cell called zygote(in plants it is called double fertilization). ";
+string mitosis="Mitosis is the division of a parent cell to produce two identical cells such that the resulting cells have the same number of chromosome as the parent cell.";
+string meiosis="Meiosis is the process by which one parent cell divides its self to produce four daughter cells of which each cell has half the number of chromosomes as has the parent cell";
+string organic_chemistry="Organic chemistry is the branch of chemistry that deals with study of carbon compounds(examples of carbon compounds include methane, propane etc)";
+string flower="flower is the part of plant that produces fruit and seed. The main parts of the flower include petal,sepal,androecium and gynaecium.";
+string metal="metal is any element that loses electron to  form positively charged ion. eg sodium, potassium etc.";
+string conductor="A conductor is any material that allows electrons to pass through in other to conduct eletricity ";
+string insulator="An insulator is a material that does not allow electron to pass through it in its pure state. examples of insulators include; dry wood,polythene ,etc";
+string threshold_frequency="threshold frequency is the minimum frequency below which no photo-electron can be emitted from the surface of a metal";
+string resonance="Resonance is the phenomenon where a periodic body is set into vibration at its own natural frequency as result of impulse it receives from another body vibrating at the same frequency.example is soldiers matching on bridge. ";
+string echo="An echo is the reflection of sound wave as it strikes a hard surface ";
+string biomass="Biomass is the part of earth where life exist.  ";
+string doping="Doping is the addition of impurities into an intrinsic semi-conductor in order to improve its electrical conductivity. ";
+string menstruation="menstruation is the monthly discharge of blood through the vagina as a result of break down of the surface layer of the uterus.";
+string concentration="Concentration is the amount of substances in moles dissolved in one decimeter cube of a solution.(its formular is mass/molar_mass ).";
+string disease= "A disease is any disorder which affects the normal functioning of the body of a living organism.";
+string frequency="frequency is the time taking for an object to complete on cycle";
+string ecology="ecology is the study of the interactions between members of a community.There are two types which include (autecology and synecolgy).  ";
+string cell="A cell is the basic structural and functional unit of life. There are two main types of cells namely;somatic cells and germ cell. ";
+string variation="Variation is the difference in characteristics between organisms of the same species.The two main types of variation are the continuos and discontinuose variation.  ";
+string albinism="Albinism is a condition in human in which the external body pigment fails to develp as a result of double reccessive condition of the gene that codes for that gene. People suffering from this conditions are called (albinos) ";
+string genetics="Genetics is the branch of biology that deals with the study of the passing of traits from parents to offsprings. ";
+string mutation="Mutation is the sudden change in the genetic make up of an organism.This consist of gene and chromosomal mutation. ";
+cout<<"type in the term u wanna know its scientific definition....NB(in lower cases): ";
+cin>>term;
+
+if(term=="amplitude"){
+    cout<<amplitude ;
+}
+else if(term=="albinism"){
+    cout<<albinism;
+}
+else if(term=="atom"){
+    cout<<atom;
+}
+else if(term=="atmosphere"){
+    cout<<atmosphere;
+}
+
+   else if(term=="biomass"){
+    cout<<biomass;
+   }
+   else if(term=="disease"){
+    cout<<disease;
+   }
+   else if(term=="doping"){
+    cout<<doping;
+   }
+   else if (term=="variation"){
+    cout<<variation;
+   }
+   else if(term=="cell"){
+    cout<<cell;
+   }
+   else if(term=="conductor"){
+    cout<<conductor;
+   }
+
+   else if (term=="concentration"){
+
+    cout<<biomass;
+   }
+   else if(term=="compound"){
+        cout<<compound;
+
+
+   }
+   else if(term=="force"){
+    cout<<force;
+   }
+   else if (term=="frequency"){
+    cout<<frequency;
+
+
+
+   }
+
+ else if(term=="organic chemistry"){
+        cout<<organic_chemistry;
+ }
+ else if(term=="flowere"){
+    cout<<flower;
+ }
+ else if(term=="fertilisation"){
+    cout<<fertilisation;
+ }
+ else if(term=="tissue"){
+    cout<<tissue;
+ }
+ else if(term=="threshold frequency"){
+    cout<<threshold_frequency;
+ }
+ else if(term=="metal"){
+    cout<<metal;
+ }
+ else if(term=="matter"){
+    cout<<matter;
+ }
+ else if(term=="mutation"){
+    cout<<mutation;
+ }
+ else if(term=="meiosis"){
+    cout<<meiosis;
+ }else if(term=="mitosis"){
+ cout<<mitosis;
+ }
+ else if(term=="moment"){
+    cout<<moment;
+ }
+ else if(term=="momentum"){
+    cout<<momentum;
+ }
+ else if(term=="mole"){
+    cout<<mole;
+ }
+ else if(term=="menstruation"){
+    cout<<menstruation;
+ }
+ else if(term=="system"){
+    cout<<system;
+ }
+ else if(term=="energy"){
+    cout<<energy;
+ }
+ else if(term=="insulator"){
+ cout<<insulator;
+
+}
+else if(term=="echo"){
+    cout<<echo;
+}
+else if(term=="ecology"){
+    cout<<ecology;
+}
+else if(term=="element"){
+    cout<<element;
+}
+else if(term=="resonance"){
+    cout<<resonance;
+}
+else if(term=="reproduction"){
+    cout<<reproduction;
+}
+else if(term=="power"){
+    cout<<power;
+}
+else if(term=="population"){
+    cout<<population;
+}
+else if(term=="paleontology"){
+    cout<<paleontology;
+}
+else if(term=="photoelectricity"){
+    cout<<photoelectricity;
+}
+else if(term=="genetics"){
+    cout<<genetics;
+}
+else if(term=="wave"){
+    cout<<wave;
+}
+else if(term=="wavelength"){
+    cout<<wavelength;
+}
+else if(term=="work"){
+    cout<<work;
+}
+
+
+
+
+
+
+
+
+
+
+else {
+    cout<<"please check your spellings!!!!";
+}
+
+}
+
